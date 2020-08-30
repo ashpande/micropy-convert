@@ -1,0 +1,17 @@
+#include "Arduino.h"
+
+int ledPin = 13;  // LED connected to digital pin 13
+int inPin = 7;    // pushbutton connected to digital pin 7
+int val = 0;      // variable to store the read value
+
+ #{
+  #from machine import pin at start of code
+  Pin.mode(ledPin, OUT);  // sets the digital pin 13 as output
+  #from machine import pin at start of code
+  Pin.mode(inPin, IN);    // sets the digital pin 7 as input
+#}
+
+While True: # 
+  val = Pin.value(inPin);   // read the input pin
+  Pin.value(ledPin, val);  // sets the LED to the button's value
+#}
