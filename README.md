@@ -40,4 +40,6 @@ Place the file which has to be translated into the Arduino-headerfiles folder. M
     
 The converted output will be visible on the terminal, as well as an output.txt file located within the same folder.
 
+For more information on how to modify and build the tool with more nodes, read [Report.md](https://github.com/AshutoshPandey123456/micropy-convert/blob/master/Report.md)
+
 ![Example](https://github.com/AshutoshPandey123456/micropy-convert/blob/master/Example.png)
