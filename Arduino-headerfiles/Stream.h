@@ -18,6 +18,7 @@
 
   parsing functions based on TextFinder library by Michael Margolis
 */
+// just to ignore nothing important......
 
 #ifndef Stream_h
 #define Stream_h
